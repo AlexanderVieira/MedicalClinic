@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Presentation", "0.Presentation", "{DE84DF53-C121-424F-9437-27F1251AC45B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Application", "1.Application", "{6EB27FDD-77DF-4D41-9F09-8CA09682CA99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Services", "2.Services", "{13669D51-8AB9-4917-BD59-8DC602D17349}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Domain", "3.Domain", "{34C7686F-F17F-4E30-A5B1-9E58ECB63BB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infra", "4.Infra", "{497346DA-B5C1-49DF-8338-E96ABF02D794}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1.DataBase", "4.1.DataBase", "{B8139CBF-8BEB-414D-B82E-B4087630CBFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2.IoC", "4.2.IoC", "{8B77A52F-154F-4A4D-888C-AC8C57329294}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.3.Test", "4.3.Test", "{A6B889A2-334A-459D-ADBE-42BD573F82DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sql", "Sql", "{3AB912C3-EC62-4935-8BFF-7F683D3169A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySql", "Infra\MySql\MySql\MySql.csproj", "{6A7A7271-C3F8-45BE-A887-4B082EE54501}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A7A7271-C3F8-45BE-A887-4B082EE54501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7A7271-C3F8-45BE-A887-4B082EE54501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7A7271-C3F8-45BE-A887-4B082EE54501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7A7271-C3F8-45BE-A887-4B082EE54501}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8139CBF-8BEB-414D-B82E-B4087630CBFB} = {497346DA-B5C1-49DF-8338-E96ABF02D794}
+		{8B77A52F-154F-4A4D-888C-AC8C57329294} = {497346DA-B5C1-49DF-8338-E96ABF02D794}
+		{A6B889A2-334A-459D-ADBE-42BD573F82DA} = {497346DA-B5C1-49DF-8338-E96ABF02D794}
+		{3AB912C3-EC62-4935-8BFF-7F683D3169A4} = {B8139CBF-8BEB-414D-B82E-B4087630CBFB}
+		{6A7A7271-C3F8-45BE-A887-4B082EE54501} = {3AB912C3-EC62-4935-8BFF-7F683D3169A4}
+	EndGlobalSection
+EndGlobal
